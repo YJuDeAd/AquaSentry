@@ -1,0 +1,55 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & package management
+.env
+.venv/
+env/
+venv/
+ENV/
+Pipfile.lock
+requirements_freeze.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# TensorFlow / ML artifacts
+checkpoint
+checkpoints/
+saved_model/
+*.h5
+*.pb
+*.tflite
+*.ckpt*
+events.out.tfevents.*
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Audio datasets & generated data
+*.wav
+*.mp3
+*.zip
+*.flac
+data/
+dataset/
+downloads/
+tmp/
+temp/
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
